@@ -1,0 +1,121 @@
+body{
+    background-color: #3c494d;
+    color: #c0c2c4;
+    font-size: 15px;
+}
+.header-container{
+    background-image: url('pngtree-earth-globe-background-world-map-vector-image_311271.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100%;
+    width: 60%;
+    height: 200px;
+    margin: auto;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+.name-container{
+    position:relative;
+}
+.nav-container{
+    width: 70%;
+    margin: auto;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  .li {
+    float: left;
+    border-right: 1px solid #bbb;
+    width: 16%;
+
+  }
+  .li1{
+    border: none;
+  }
+  
+  .li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  .li a:hover {
+    background-color: #111111;
+  }
+  .cols{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    border-bottom: 3px solid #5a6163;
+  }
+  .column {
+    float: left;
+    padding: 10px;
+    
+  }
+  .left {
+    width: 25%;
+  }
+  
+  .right {
+    width: 75%;
+  }
+  .twocols{
+    display: flex;
+  }
+  .borderTop{
+    border-top: 3px solid #5a6163;
+    padding-top: 6px;
+  }
+  .left2{
+    border-right: 3px solid #5a6163;
+    padding-right: 10px;
+  }
+  .right2{
+    margin-left: 10px;
+  }
+  .footer{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+ 
+  .footer a{
+    
+    color: #c0c2c4;
+  }
+  .btn{
+    border: none;
+  color: #020202;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  }
+  .h2{
+    margin-left: 20px;
+  }
+  .list{
+    min-height: 15px;
+    line-height: 15px;
+    margin: 0 auto;
+    padding: 5px 20px 5px 5px;
+  }
+
+  .list li:before {
+    content: "x ";
+    font-size: 10px;
+}
